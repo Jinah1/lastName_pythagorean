@@ -32,3 +32,4 @@ def is_acute():
         print("Not acute")
         
 is_acute()
+input("You are done.")
