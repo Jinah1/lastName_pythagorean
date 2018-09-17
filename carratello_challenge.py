@@ -1,4 +1,5 @@
-from math import sqrt
+from math import sqrt 
+import time
 
 print("Enter the three legs of a triangle to see if it is a triangle, a right triangle, an obtuse triangle, and/or an acute triange.")
 side_a=int(input("Input side a:"))
@@ -32,4 +33,5 @@ def is_acute():
         print("Not acute")
         
 is_acute()
-input("You are done.")
+for loop in range(1000):
+    input("Done.")
